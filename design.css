@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+body{
+    background-color: black;
+    overflow-x: hidden; 
+}
+header{
+    background-color: rgb(43, 38, 38);
+    height: 7vh;
+    
+ 
+}
+*{
+    margin: 0;
+    padding: 0;
+
+}
+nav{
+    position: relative;
+    left: 1400px;
+    top: 15px;
+    box-sizing: border-box;
+
+
+    
+}
+nav a{
+   text-decoration: none;
+   color: white;
+
+   box-sizing: border-box;
+
+   
+}
+.l img{
+    width: 7vw;
+    height: 4vh;
+    position: relative;
+    left: 31px;
+    top:-7px
+    
+
+   
+}
+.s img{
+    width: 2vw;
+    height: 3vh;
+    position: relative;
+    left: 811px;
+    top: -70px;
+}
+.search input{
+     width: 44vw;
+    height: 4vh;
+    position: relative;
+    left: 189px;
+    top:-43px;
+    border-radius: 15px;
+    border-color: black;
+    box-sizing: border-box;
+
+   
+    
+}
+.v ul{
+    
+    display: flex;
+}
+.v ul li{
+    display: flex;
+    padding: 10px;
+
+
+}
+.v ul li a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 34px;
+    box-sizing: border-box;
+
+   
+
+}
+main .v{
+    position: relative;
+    top: 23px;
+}
+main .slider{
+    position: relative;
+    top: 55px;
+    left: 12px;
+   
+    
+}
+main .slider img{
+    border-radius: 23px;
+ 
+    
+}
+.box{
+    display: flex;
+}
+.box2{
+    display: flex;
+}
+
+ .box img{
+    position: relative;
+    top: 100px;
+    animation: MyDiv;
+    border-radius: 20px;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+   
+    animation-direction: alternate-reverse;
+    width: 205px;
+    height:200px;
+    padding: 5px;
+ } 
+
+ @keyframes MyDiv {
+    0%   {left: 0px; top: 120px;}
+    100%  {left: 100px; top: 120px;}
+  }
+
+.text{
+    color: white;
+}
+.text p{
+    position: relative;
+    top: -146px;
+    left: 42px;
+    font-size: 28px;
+    
+}
+.text1{
+    color: white;
+}
+.text1 p{
+    position: relative;
+    top: 131px;
+    left: 42px;
+    font-size: 28px;
+    
+}
+.box2 img{
+    position: relative;
+    top: 131px;
+    width: 197px;
+    height: 200px;
+    padding: 27px;
+    left: 6px;
+    border-radius: 58px;
+   } 
+
+ 
